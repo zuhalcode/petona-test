@@ -4,7 +4,7 @@ import "../styles/globals.css";
 // import { wrapper } from "../components/store/store";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000/api";
+axios.defaults.baseURL = "https://petona-backend.000webhostapp.com/api";
 
 function MyApp({ Component, pageProps }) {
   return (
