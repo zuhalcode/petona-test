@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cs-active-btn {
+    @apply cursor-pointer rounded px-5 py-2 font-[Poppins] font-bold;
+  }
+
+  .cs-normal-btn {
+    @apply ml-5 cursor-pointer font-serif tracking-widest;
+  }
+
+  .cs-before-cover {
+    @apply before:absolute before:top-0 before:z-10 before:h-[350px] before:w-full before:bg-white before:opacity-50;
+  }
+
+  .cs-after-cover {
+    @apply after:absolute after:top-[350px] after:z-10 after:h-[250px] after:w-full after:bg-white;
+  }
+}
